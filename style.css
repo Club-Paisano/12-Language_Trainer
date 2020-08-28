@@ -1,0 +1,46 @@
+:root {
+  --base1: #ffed78;
+  --base2: #feffea;
+  --base3: #addce4;
+  --base4: #586b8f;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--base3);
+  color: var(--base2);
+}
+
+section {
+  border: solid;
+  width: 50%;
+  background-color: var(--base4);
+  padding: 20px;
+  text-align: center;
+}
+
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+
+span {
+  text-decoration: underline;
+  white-space: pre;
+  padding-left: 5px;
+  padding-right: 5px;
+}
